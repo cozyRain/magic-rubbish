@@ -21,6 +21,20 @@ from .utils.garbage_classifier import get_classifier, classify_with_optimization
 from .utils.image_processor import is_invalid_image
 from .utils.test_logger import get_test_logger
 
+# 添加腾讯云环境变量配置（可选）
+# 如需使用真实API，请在系统环境变量中设置：
+# TENCENT_SECRET_ID=your-secret-id
+# TENCENT_SECRET_KEY=your-secret-key
+# 或在项目根目录创建 .env 文件
+
+# 检查腾讯云配置
+TENCENT_SECRET_ID = os.environ.get('TENCENT_SECRET_ID', '')
+TENCENT_SECRET_KEY = os.environ.get('TENCENT_SECRET_KEY', '')
+if TENCENT_SECRET_ID and TENCENT_SECRET_KEY:
+    print("✅ 检测到腾讯云API密钥，将使用真实识别")
+else:
+    print("ℹ️ 未检测到腾讯云API密钥，将使用模拟识别模式")
+    print("   如需使用真实识别，请配置环境变量 TENCENT_SECRET_ID 和 TENCENT_SECRET_KEY")
 
 # ==================== 网页视图 ====================
 

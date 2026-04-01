@@ -9,7 +9,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-your-secret-key-here-change-in-production'
+SECRET_KEY = 'django-insecure-sk-pzbNpRy4PTcGGEAqpWk16xhCj9qUE62m8r5mEGqIgc9pWW8O'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -122,3 +122,11 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.FormParser',
     ],
 }
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = 'static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']  # 注意这里是 BASE_DIR / 'static'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# Media files (Uploaded images)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'

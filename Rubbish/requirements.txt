@@ -1,8 +1,17 @@
-Django==4.2.0
+# Django 框架（Python 3.12 兼容）
+Django==4.2.11
 djangorestframework==3.14.0
-django-cors-headers==4.0.0
-paddlepaddle==2.5.0
-paddlehub==2.4.0
-opencv-python==4.8.1.78
-Pillow==10.0.0
-numpy==1.24.3
+django-cors-headers==4.3.1
+
+# 图像处理（Python 3.12 有预编译包）
+opencv-python==4.9.0.80
+Pillow==10.2.0
+
+# 数值计算（Python 3.12 官方支持）
+numpy==1.26.3
+
+# 网络请求
+requests==2.31.0
+
+# 腾讯云 SDK（最新版）
+tencentcloud-sdk-python==3.0.1115

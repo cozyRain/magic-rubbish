@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2275258-e28a-4812-8983-1bb6ddf6fd61" name="更改" comment="123">
-      <change afterPath="$PROJECT_DIR$/Rubbish/.gitignore" afterDir="false" />
+    <list default="true" id="b2275258-e28a-4812-8983-1bb6ddf6fd61" name="更改" comment="第一版">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/Rubbish/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/Rubbish/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/Rubbish/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/Rubbish/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/Rubbish/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/Rubbish/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/api/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/api/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/api/utils/garbage_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/api/utils/garbage_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rubbish/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Rubbish/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +54,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Python/MyAI",
+    "last_opened_file_path": "E:/notebook",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775023191144</updated>
-      <workItem from="1775023192197" duration="2676000" />
+      <workItem from="1775023192197" duration="6390000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <option name="closed" value="true" />
@@ -84,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775025128943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="123">
+      <option name="closed" value="true" />
+      <created>1775025910027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775025910027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第一版">
+      <option name="closed" value="true" />
+      <created>1775026268910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775026268910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="第一版" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一版" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

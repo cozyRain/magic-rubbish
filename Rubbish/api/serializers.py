@@ -1,3 +1,8 @@
+"""
+序列化器模块
+定义API数据的序列化和反序列化规则
+"""
+
 from rest_framework import serializers
 from .models import RecognitionRecord, ErrorSample
 
@@ -15,6 +20,20 @@ class RecognitionRecordSerializer(serializers.ModelSerializer):
 
     def get_category_display(self, obj):
         return obj.get_category_display_name()
+
+    def get_created_at_display(self, obj):
+        return obj.created_at.strftime('%Y-%m-%d %H:%M:%S')
+
+
+class ErrorSampleSerializer(serializers.ModelSerializer):
+    """错误样本序列化器"""
+
+    created_at_display = serializers.SerializerMethodField()
+
+    class Meta:
+        model = ErrorSample
+        fields = '__all__'
+        read_only_fields = ['id', 'created_at']
 
     def get_created_at_display(self, obj):
         return obj.created_at.strftime('%Y-%m-%d %H:%M:%S')
